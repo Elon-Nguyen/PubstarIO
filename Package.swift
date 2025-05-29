@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "PubstarIO",
     platforms: [
-        .iOS(.v18)
+        .iOS(.v12)
     ],
     products: [
         .library(
