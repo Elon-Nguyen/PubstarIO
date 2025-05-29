@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		751993C32DE8501D00DA6876 /* PubstarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751993B72DE8501D00DA6876 /* PubstarIO.framework */; };
+		751993D22DE8508500DA6876 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 751993D12DE8508500DA6876 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		751993B72DE8501D00DA6876 /* PubstarIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PubstarIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		751993C22DE8501D00DA6876 /* PubstarIOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PubstarIOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		751993D12DE8508500DA6876 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,6 +62,7 @@
 		751993AD2DE8501D00DA6876 = {
 			isa = PBXGroup;
 			children = (
+				751993D12DE8508500DA6876 /* PrivacyInfo.xcprivacy */,
 				751993B92DE8501D00DA6876 /* PubstarIO */,
 				751993C62DE8501D00DA6876 /* PubstarIOTests */,
 				751993B82DE8501D00DA6876 /* Products */,
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751993D22DE8508500DA6876 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

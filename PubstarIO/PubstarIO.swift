@@ -7,3 +7,8 @@
 
 import Foundation
 
+public class PubstarIO {
+    public static func printMessage(message: String) {
+        print("Pubstart's message is \(message)")
+    }
+}
